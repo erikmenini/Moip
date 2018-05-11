@@ -182,8 +182,23 @@ cucumber -t @loginsucessfull
 ````
 O teste demarcado com a tag é executado.
 
+As tags para execução de uma suíte:
 
+* Para executar todos:
+````bash
+cucumber
+````
 
+* Para executar suítes separadas:
+
+````bash
+cucumber –-tag @login 
+cucumnber --tag @auth
+cucumnber --tag @client
+cucumnber --tag @orders
+cucumnber --tag @payment
+cucumnber --tag @seach_Moip_sandbox
+````
 
 Contato
 -------
