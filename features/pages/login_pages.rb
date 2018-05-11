@@ -1,11 +1,11 @@
 class Login < SitePrism::Page
     set_url 'https://conta-sandbox.moip.com.br/'
 
-    element :user_name, :xpath, '//*[@id="login"]/main/article/section/div/form/fieldset[1]/input'
-    element :password, :xpath, '//*[@id="login"]/main/article/section/div/form/fieldset[2]/input'
-    element :login_button, :xpath, '//*[@id="login"]/main/article/section/div/form/button'
-    element :my_account, :xpath, '//html/body/header/div[3]/div/div[2]/div/a/span'
-    element :get_out, :xpath, '//html/body/header/div[3]/div/div[2]/div/ul/li[5]/a'
+    element :user_name, 'input[name=login]'
+    element :password, 'input[name=password]'
+    element :login_button, '.mg-button._full._primary' 
+    element :my_account, '.fa.fa-angle-down'
+    element :get_out, '.fa.fa-sign-out'
     
     def with (user, password)
         self.user_name.set user
