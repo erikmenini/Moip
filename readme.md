@@ -163,7 +163,9 @@ Para executar o testes automatizados usaremos alguns comandos a partir da pasta 
 
 Antes de inciar a execução dos testes é necessário instalar todas as gems que precisaremos. Para isso basta abrir o terminal ou o cmder na raíz do projeto e executar:
 
-*   bundle install
+````bash
+bundle install
+````
 
 Com este comando todas as gems necessárias serão instaladas.
 
@@ -185,8 +187,6 @@ O teste demarcado com a tag é executado.
 
 Contato
 -------
-Sugestões? Chama ai...
-
 *	E-mail: erikmenini@gmail.com
 *	Linkedin: <https://www.linkedin.com/in/erik-menini-arimath%C3%A9a-3a380b30/>
 
