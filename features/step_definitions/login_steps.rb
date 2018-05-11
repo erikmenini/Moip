@@ -1,5 +1,4 @@
 Given("i access the login Page") do
-    #@Login = Login.new
     @Login.load
   end
   
@@ -23,8 +22,4 @@ end
 
   Then("a should see {string}") do |message|
     assert_text message
-  end
-
-  Then("i logout") do
-    @Login.logout
   end
