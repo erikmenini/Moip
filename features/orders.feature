@@ -8,7 +8,7 @@ Scenario: New Order with an existing client
 Given a new order with client "CUS-PTI2SAWD447R" was created 
 Then  i validate the response code 201
 
-@getOrder @orders @all
+@getOrder @orders
 Scenario: Get an specific order
 Given i get an order "ORD-C6YNHTFIO8PP"
 Then i validate the order data
