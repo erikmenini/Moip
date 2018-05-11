@@ -93,7 +93,7 @@ cd Moip
 *	No Console do Cmder, digite o comando:
 
 ````bash
-git clone 
+git clone https://github.com/erikmenini/Moip.git
 
 ````
 Como é possível ver, a estrutura do comando é "git clone [endereço do repositório] .
