@@ -151,9 +151,9 @@ O Ruby entende estes momentos quando utilizamos as seguintes palavras chaves:
 Utilizaremos a tag para diferenciar os cenários por grupos, funcionalidades ou etapas de testes. As tags são inseridas na linha de cima do nome do cenário.
 No terminal, quando quisermos rodar os cenários que estão nomeados com tags, basta utilizarmos o seguinte comando:
 
-Cucumber –-tag @nome_da_tag
+cucumber –-tag @nome_da_tag
 Ou 
-Cucumber –t @nome_da_tag
+cucumber –t @nome_da_tag
 
 Esse comando rodará todos os cenários que tiverem a tag.
 
@@ -193,11 +193,11 @@ cucumber
 
 ````bash
 cucumber –-tag @login 
-cucumnber --tag @auth
-cucumnber --tag @client
-cucumnber --tag @orders
-cucumnber --tag @payment
-cucumnber --tag @seach_Moip_sandbox
+cucumber --tag @auth
+cucumber --tag @client
+cucumber --tag @orders
+cucumber --tag @payment
+cucumber --tag @seach_Moip_sandbox
 ````
 
 Contato
