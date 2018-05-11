@@ -1,4 +1,4 @@
-<h1>Relatório erro 500</h1>
+<h1>Relatório erro 5XX</h1>
 
 <h2>ERRO 500</h2>
 
